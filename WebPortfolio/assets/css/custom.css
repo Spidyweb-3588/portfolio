@@ -1,0 +1,80 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+*{
+	font-family : 'Nanum-Gothic';
+}
+h1 {
+	font-family : 'hanna';
+}
+
+a#MOVE_TOP_BTN {
+    position: fixed;
+    right: 5%;
+    bottom: 10px;
+    z-index: 999; 
+	
+}
+
+li{
+	list-style: none;
+}
+
+.logonform{
+  padding-top: 10%;
+  padding-bottom: 15%;
+  margin-bottom: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
+  color: inherit;
+  background-color: #eee;
+  
+}
+
+.container .logonform {
+  padding-right: 15%;
+  padding-left: 15%;
+  border-radius: 10px;
+}
+
+.joinform{	
+  padding-top: 10%;
+  padding-bottom: 15%;
+  margin-bottom: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
+  color: inherit;
+  background-color: #eee;
+  
+}
+
+.container .joinform{
+  padding-right: 15%;
+  padding-left: 15%;
+  border-radius: 10px;
+}
+
+input.joininput{
+	position:relative;
+	display: block;
+	border: none;
+	width:100%;
+	margin: 0.5rem auto;
+	padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+	font-size:inherit;
+	color:#3b3b3b;
+	backgroud-color:#f8f9ff;
+	border-radius:1px;
+}
+
+button.checkbutton{
+  font: inherit;
+  color: inherit;
+  margin: 0.5rem auto;
+}
+
+button.joinbutton{
+  font: inherit;
+  color: inherit;
+  margin-top: 15px;
+  width: 100%;
+}
