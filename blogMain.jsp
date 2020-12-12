@@ -43,7 +43,7 @@
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle"
 						data-toggle="dropdown" role="button" aria-haspopup="true"
-						aria-exepended="false">접속하기<span class="caret"></span></a>
+						aria-exepended="false">접속하기 <i class="fas fa-list"></i><span class="caret"></span></a>
 					<ul class="dropdown-menu">
 						<li><a href="login.jsp"><i class="fas fa-key"></i> 로그인</a></li>
 						<li><a href="join.jsp"><i class="fas fa-user"></i> 회원가입</a></li>
@@ -59,8 +59,8 @@
 						data-toggle="dropdown" role="button" aria-haspopup="true"
 						aria-exepended="false">회원관리<span class="caret"></span></a>
 					<ul class="dropdown-menu">
-						<li><a href="myinfoupdate.jsp">내 정보 수정</a></li>
-						<li><a href="logoutAction.jsp">로그아웃</a></li>
+						<li><a href="myinfoupdate.jsp"><i class="fas fa-user-edit"></i> 내 정보 수정</a></li>
+						<li><a href="logoutAction.jsp"><i class="fas fa-door-open"></i> 로그아웃</a></li>
 					</ul>
 				</li>
 			</ul>
@@ -69,24 +69,24 @@
 			%>
 		</div>
 	</nav>
-	<div class="container-fluid">
+	<div class="container">
 		<div class="jumbotron">
 			<h1>박지호의 블로그</h1>
 			<p>제가 공부하는 것들을 정리해두는 개인 블로그입니다.</p>
 		</div>
-		<div class="container-fluid">
+		<div class="container">
 			<div id="myCarousel" class="carousel slide" data-ride="carousel">
-				<ol class="carousel-indicators">
-					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-					<li data-target="#myCarousel" data-slide-to="1"></li>
-					<li data-target="#myCarousel" data-slide-to="2"></li>
-				</ol>
-				<div class="carousel-inner">
+					<ol class="carousel-indicators">
+						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#myCarousel" data-slide-to="1"></li>
+						<li data-target="#myCarousel" data-slide-to="2"></li>
+					</ol>
+				<div class="carousel-inner">	
 					<div class="item active">
 						<img src="images/커피사진.jpg">
 					</div>
 					<div class="item">
-						<img src="images/NBA.jpg">
+						<img src="images/NBA.jpeg">
 					</div>
 					<div class="item">
 						<img src="images/e-sports.jpg">

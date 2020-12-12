@@ -45,7 +45,7 @@
 				<!-- One -->
 					<section id="one" class="wrapper style2 spotlights">
 						<section>
-							<a href="#" class="image"><img src="images/2.jpg" alt="" data-position="center center" /></a>
+							<a class="image"><img src="images/2.jpg" alt="" data-position="center center" /></a>
 							<div class="content">
 								<div class="inner">
 									<h2>about me</h2>
@@ -55,31 +55,25 @@
 									jiho358896@gmail.com<br/>
 									서울시 성북구
 									</p>
-									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
-									</ul>
 								</div>
 							</div>
 						</section>
 						<section>
-							<a href="#" class="image"><img src="images/1601963108447-29.jpg" alt="" data-position="top center" /></a>
+							<a class="image"><img src="images/1601963108447-29.jpg" alt="" data-position="top center" /></a>
 							<div class="content">
 								<div class="inner">
-									<h2>Certifiaction</h2>
+									<h2>Certification</h2>
 									<p>2017.01.12 운전면허1종보통<br/>
 									   2017.12.12 네트워크관리사2급<br/>
 									   2019.02.15 워드프로세서<br/>
 									   2019.08.16 정보처리기사<br/>
 									   2020.10.06 SQLD
 									</p>
-									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
-									</ul>
 								</div>
 							</div>
 						</section>
 						<section>
-							<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
+							<a class="image"><img src="images/code.jpg" alt="" data-position="25% 25%" /></a>
 							<div class="content">
 								<div class="inner">
 									<h2>Skills</h2>
@@ -87,21 +81,15 @@
 									   JSP java/Spring<br/>
 									   Oracle Mysql
 									</p>
-									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
-									</ul>
 								</div>
 							</div>
 						</section>
 						<section>
-							<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
+							<a class="image"><img src="images/회사.png" alt="" data-position="25% 25%" /></a>
 							<div class="content">
 								<div class="inner">
 									<h2>experiences</h2>
-									<p>2020.07.01~10.31 비투엔 컨소시엄, 공공데이터수준평가 지원</p>
-									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
-									</ul>
+									<p>2020.07.01~10.31 비투엔 컨소시엄, 공공데이터 수준평가 지원</p>
 								</div>
 							</div>
 						</section>
@@ -111,7 +99,7 @@
 					<section id="two" class="wrapper style3 fade-up">
 						<div class="inner">
 							<h2>My Blog</h2>
-							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
+							<p> 저만의 블로그를 따로 제작해 보았으며, 공부한 것을 정리하는 tistory 블로그, 코드들을 정리해둔 github 페이지의 링크를 걸어두었습니다.</p>
 							<div class="features">
 								<section>
 									<span class="icon solid major fa-code"></span>
@@ -129,9 +117,6 @@
 									<p>포트폴리오에 사용된 코드</p>
 								</section>
 							</div>
-							<ul class="actions">
-								<li><a href="generic.html" class="button">Learn more</a></li>
-							</ul>
 						</div>
 					</section>
 
@@ -142,45 +127,25 @@
 							<p></p>
 							<div class="split style1">
 								<section>
-									<form method="post" action="#">
-										<div class="fields">
-											<div class="field half">
-												<label for="name">Name</label>
-												<input type="text" name="name" id="name" />
-											</div>
-											<div class="field half">
-												<label for="email">Email</label>
-												<input type="text" name="email" id="email" />
-											</div>
-											<div class="field">
-												<label for="message">Message</label>
-												<textarea name="message" id="message" rows="5"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><a href="" class="button submit">Send Message</a></li>
-										</ul>
-									</form>
-								</section>
-								<section>
 									<ul class="contact">
 										<li>
-											<h3><i class="fas fa-comment"></i>kakaotalk ID</h3>
+											<h3><i class="fas fa-comment"></i> kakaotalk ID</h3>
 											<span>jiho3588</span>
 										</li>
 										<li>
-											<h3><i class="fas fa-envelope"></i>Email</h3>
-											<a href="#">jiho358896@gmail.com</a>
+											<h3><i class="fas fa-envelope"></i> Email</h3>
+											<a>jiho358896@gmail.com</a><br/>
+											<a>jiho3588@naver.com</a>
 										</li>
 										<li>
-											<h3><i class="fas fa-phone"></i>Phone</h3>
+											<h3><i class="fas fa-phone"></i> Phone</h3>
 											<span>010-7473-3588</span>
 										</li>
 										<li>
 											<h3>Social</h3>
 											<ul class="icons">
-												<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-												<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+												<li><a href="https://github.com/Spidyweb-3588" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+												<li><a href="https://www.linkedin.com/in/%EC%A7%80%ED%98%B8-%EB%B0%95-827a261a6/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
 											</ul>
 										</li>
 									</ul>
@@ -195,7 +160,7 @@
 			<footer id="footer" class="wrapper style1-alt">
 				<div class="inner">
 					<ul class="menu">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li> Jiho Park. All rights reserved.</li>
 					</ul>
 				</div>
 			</footer>
